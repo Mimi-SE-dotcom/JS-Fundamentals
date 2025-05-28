@@ -1,12 +1,4 @@
-const speak = function(c){
-console.log ('${c}' is cool);
-};
-speak ('c')
-const speak = function(c){
-console.log ('${c}' is undefined);
-};
-speak ('c')
-const speak = function(c){
-console.log ('${c}' undefined is undefined);
-};
-speak ('c')
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
+
+console.log(`${arg1} is ${arg2}`);
